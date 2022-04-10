@@ -5,7 +5,7 @@ text = str(sys.argv[1])
 num = int(sys.argv[2])
 
 file = open(text, 'r')
-line = re.sub("[.,!?]", "", file.readline())
+line = re.sub("[.,!?]", "", file.readlines())
 word = line.split()
 
 dic = {}
