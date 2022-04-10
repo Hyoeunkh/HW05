@@ -19,7 +19,7 @@ for i in lines:
 
 sort = sorted(dic.items(), key=lambda x: x[1], reverse=True)
 for x in range(num):
-        print("%-15s%5d" % (sort[x][0], sort[x][1]))
+        print("%-12s%5d" % (sort[x][0], sort[x][1]))
 
 file.close()
 
