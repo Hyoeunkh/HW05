@@ -5,10 +5,10 @@ text = str(sys.argv[1])
 num = int(sys.argv[2])
 
 file = open(text, 'r')
-line = file.readlines()
+lines = file.readlines()
 
 for i in lines:
-        i=re.sub("[,.!?]", "",i)
+        i = re.sub("[,.!?]", "",i)
 	word = i.split()
 	dic = {}
 	for w in word:
