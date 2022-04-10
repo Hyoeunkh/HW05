@@ -1,15 +1,1 @@
-In the communication fields, betweenness centrality is used to find the shortest path node 
-that can behave as a bridge between two other nodes. In our case, we have also used to it see 
-the most active node which can be considered bridge between different types of personality. 
-Though, ENTP and ENTJ were found higher in degree frequency, but these personality types 
-could not manage to come in-between for the best communication. Whereas, INTP 
-personality type appeared highest in betweenness centrality among all sixteen personality 
-types with 36 frequency. On the other hand, ENTP personality type did not obtain the high 
-degree frequency but it appeared 26 times in betweenness centrality. Moreover, INFP, ISFP, 
-and INFP were remained almost disappeared within team choice for maintaining the 
-betweenness. It is, may be, because the feeling (F) and introvert (I) traits are sentimental and 
-get hurt quickly. It might have dragged these personality types to not follow them in the teams 
-as members. Additionally, it should be noted here that programmer has job to communicate 
-frequently with team members. Therefore, finding betweenness centrality among team 
-programmers can bring the lead programming skills visible which can help to let members 
-communicate or work with each other
+As the country became embroiled in a domestic crisis, the first government was dislodged and succeeded by several different administrations. Bolikango served as Deputy Prime Minister in one of the new governments before a partial state of stability was reestablished in 1961. He mediated between warring factions in the Congo and briefly served once again as Deputy Prime Minister in 1962 before returning to the parliamentary opposition. After Joseph-Desire Mobutu took power in 1965, Bolikango became a minister in his government. Mobutu soon dismissed him but appointed him to the political bureau of the Mouvement Populaire de la Revolution. Bolikango left the bureau in 1970. He left Parliament in 1975 and died seven years later. His grandson created the Jean Bolikango Foundation in his memory to promote social progress. The President of the Congo posthumously awarded Bolikango a medal in 2005 for his long career in public service.
