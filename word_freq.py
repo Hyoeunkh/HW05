@@ -5,15 +5,17 @@ text = str(sys.argv[1])
 num = int(sys.argv[2])
 
 file = open(text, 'r')
-line = re.sub("[.,!?]", "", file.readlines())
-word = line.split()
+line = file.readlines()
 
-
-for w in word:
-        if w not in dic:
-                dic[w] = dic.get(w,1)
-        else:
-                dic[w] += 1
+for i in lines:
+        i=re.sub("[,.!?]", "",i)
+	word = i.split()
+	dic = {}
+	for w in word:
+		if w not in dic:
+                	dic[w] = dic.get(w,1)
+        	else:
+                	dic[w] += 1
 
 sort = sorted(dic.items(), key=lambda x: x[1], reverse=True)
 for x in range(num):
