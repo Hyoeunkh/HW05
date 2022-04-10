@@ -8,7 +8,6 @@ file = open(text, 'r')
 line = re.sub("[.,!?]", "", file.readlines())
 word = line.split()
 
-dic = {}
 
 for w in word:
         if w not in dic:
