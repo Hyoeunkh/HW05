@@ -1,11 +1,14 @@
 #!/usr/bin/python
+
 import sys
 import re
+
 text = str(sys.argv[1])
 num = int(sys.argv[2])
 
 file = open(text, 'r')
 lines = file.readlines()
+
 dic = {}
 
 for i in lines:
@@ -18,6 +21,7 @@ for i in lines:
 			dic[w] += 1
 
 sort = sorted(dic.items(), key=lambda x: x[1], reverse=True)
+
 for x in range(num):
         print("%-12s%5d" % (sort[x][0], sort[x][1]))
 
