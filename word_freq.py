@@ -1,12 +1,11 @@
 #!/usr/bin/python
 import sys
-
+import re
 text = str(sys.argv[1])
 num = int(sys.argv[2])
 
 file = open(text, 'r')
-line = file.readline()
-
+line = re.sub("[.,!?]", "", file.readline())
 word = line.split()
 
 dic = {}
@@ -16,11 +15,11 @@ for w in word:
                 dic[w] = dic.get(w,1)
         else:
                 dic[w] += 1
-list = list(dic.keys())
-key = sorted(dic.values(), reverse=True)
 
-
-for x in range(20):
-        print("%s%10d" % (list[x],key[x]))
+sort = sorted(dic.items(), key=lambda x: x[1], reverse=True)
+for x in range(num):
+        print("%-15s%5d" % (sort[x][0], sort[x][1]))
 
 file.close()
+
+
